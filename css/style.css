@@ -29,6 +29,13 @@ h3 {
 	text-decoration: underline;
 }
 
+h4 {
+	color: #57F7D4;
+	font-size: 25px;
+	font-weight: 400;
+	margin-top: 20px;
+}
+
 body {
 	font-family: 'Lato', sans-serif;
 }

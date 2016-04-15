@@ -137,6 +137,10 @@ var showList = function() {
 			return true;
 		}
 	}).forEach(populateDeals);
+
+	if (listOfDeals.children.length < 1) {
+		listOfDeals.innerHTML = "<h4>No deals for that day</h4>";
+	}
 	
 	console.log("reveal the list!");
 
