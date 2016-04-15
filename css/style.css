@@ -1,38 +1,6 @@
-/* Write your CSS! */
-
-/* colors 
-
-primary teal #57F7D4
-
-secondary
-blue #6059F7
-light blue #4FD1E8
-pink #E846E3
-green #28EA4C
-red #FF433D
-*/
-
-
 html {
   height: 100%;
 
-}
-
-.filtersection {
-	background-color: #57F7D4;
-}
-
-#districtList {
-	z-index: 1000;
-}
-
-#listOfDeals {
-	display: none;
-}
-
-#dayOptions {
-	display: block;
-	margin: 0 auto;
 }
 
 h1, h2 {
@@ -92,6 +60,23 @@ body {
 .districts, .days {
 width: 50%;
 float: left;
+}
+
+.filtersection {
+	background-color: #57F7D4;
+}
+
+#districtList {
+	z-index: 1000;
+}
+
+#listOfDeals {
+	display: none;
+}
+
+#dayOptions {
+	display: block;
+	margin: 0 auto;
 }
 
 
@@ -171,27 +156,11 @@ float: left;
 	background-color: rgba(0,0,0,0.5)
 }
 
-.color-blue {
-	background-color: rgba(68,123,255,0.75)
-}
-
-.color-pink {
-	background-color: rgba(207,80,138,0.75)
-}
-
-.color-red {
-	background-color: rgba(255,67,61,0.75);
-}
-
 .deal-background {
 /*	background-image: url("../img/rontoms.png");
 */	background-repeat: no-repeat;
 	background-position: center;
 	background-size: 400px;
-}
-
-.color-green {
-	background-color: rgba(40,234,76,0.75)
 }
 
 @media screen and (max-width: 600px) {
